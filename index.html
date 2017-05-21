@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>教育技术学</title>
+   <!-- Bootstrap -->
+    <link href="js/bootstrap-3.3.7/css/bootstrap.css" rel="stylesheet">
+    	<script type="text/javascript" src="js/bootstrap-3.3.7/js/bootstrap.js" ></script>
+    <style>
+    	body{
+    		padding: 50px;
+    	}
+    	.carousel{
+    		background-color: #000000;
+    		margin-bottom: 20px;
+    	}
+    	.carousel .item{
+    		background-color: #000000;
+    	}
+    	.carousel img{
+    		width: 100%;
+    	}
+    	.carousel-caption p{
+    		margin-bottom: 20px;
+    		font-size: 15px;
+    		line-height: 1.8;
+    	}
+    	#container-1 .col-md-4{
+    		text-align: center;
+    	}
+    	hr.divider{
+    		margin:40px 0;
+    	}
+    	.tab-content{
+    		padding: 40px 0;
+    	}
+    	.tab-page-heading{
+    		font-size: 50px
+    		color:#122B40
+    		margin-top:120px;
+    	}
+    	.tab-page-heading .text-muted{
+    		font-size: 20px;
+    		color: #8C8C8C;
+    	}
+    	.hero-unit{
+    		height: 200px;
+    	}
+    	.hero-unit .hero-unit-heading{
+    		font-size: 30px;
+    		margin-top: 120px;
+    		color: #122B40;
+    	}
+    	.hero-unit .hero-unit-text-muted{
+    		font-size: 20px;
+    		color: #8C8C8C;
+    	}
+    	
+    	/* 响应式布局 */
+
+@media (max-width: 800px) {
+    .carousel {
+    		width: 100%;
+        margin-bottom: 30px;
+    }
+    .carousel .item {
+        width: 100%;
+    }
+    .carousel img {
+    		height: 250px;
+        width: 100%;
+    }
+}
+    </style>
+  </head>
+  <body>
+  	
+  	<!--navbar-1 begin-->
+<nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="###">教育技术学</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+        		<a href="###" class="dropdown-toggle"data-toggle = "dropdown">师生队伍
+        			<span class="caret"></span>
+        		</a>
+        		<ul class="dropdown-menu"role="menu">
+        			<li><a href="###">教师队伍</a></li>
+        			<li class="divider"></li>
+        			<li><a href="###">学工队伍</a></li>
+        			<li class="divider"></li>
+        		</ul>
+        </li>
+        <li class="dropdown">
+        		<a href="###" class="dropdown-toggle"data-toggle = "dropdown">科学研究
+        			<span class="caret"></span>
+        		</a>
+        		<ul class="dropdown-menu"role="menu">
+        			<li><a href="###">在研项目</a></li>
+        			<li class="divider"></li>
+        			<li><a href="###">获奖成果</a></li>
+        			<li class="divider"></li>
+        			<li><a href="###">实验室设施</a></li>
+        		</ul>
+        </li>
+        <li class="dropdown">
+        		<a href="###" class="dropdown-toggle"data-toggle = "dropdown">就业信息
+        			<span class="caret"></span>
+        		</a>
+        		<ul class="dropdown-menu"role="menu">
+        			<li><a href="###">新闻公告</a></li>
+        			<li class="divider"></li>
+        			<li><a href="###">就业指导</a></li>
+        			<li class="divider"></li>
+        			<li><a href="###">招聘信息</a></li>
+        			<li class="divider"></li>
+        			<li><a href="###">创业就业</a></li>
+        		</ul>
+        </li>
+      </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-right">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="请输入关键字">
+        </div>
+        <button type="submit" class="btn btn-default">搜索</button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--navbar-1 end-->
+<!--carousel begin-->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/pic-1.jpg" alt="pic-1">
+      <div class="carousel-caption">
+        <p>图片1</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/pic-2.jpg" alt="pic-2">
+      <div class="carousel-caption">
+        <p>图片2</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/pic-3.jpg" alt="pic-3">
+      <div class="carousel-caption">
+        <p>图片3</p>
+      </div>
+    </div><div class="item">
+      <img src="img/pic-4.jpg" alt="pic-4">
+      <div class="carousel-caption">
+        <p>图片4</p>
+      </div>
+    </div>
+  </div>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">上一张</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">下一张</span>
+  </a>
+</div>
+<!--carousel end-->
+<!--container-1 begin-->
+<div class="container" id="container-1">
+	<div class="row">
+		<div class="col-md-4">
+			<img class="img-circle" src="img/icon-1.png"alt="icon-1">
+			<h2>icon1</h2>
+			<p>添加描述</p>
+			<p><a class="btn btn-default" href="###" role="button">更多资讯</a></p>
+		</div>
+		<div class="col-md-4">
+			<img class="img-circle" src="img/icon-2.png"alt="icon-2">
+			<h2>icon2</h2>
+			<p>添加描述</p>
+			<p><a class="btn btn-default" href="###" role="button">更多资讯</a></p>
+		</div>
+		<div class="col-md-4">
+			<img class="img-circle" src="img/icon-3.png"alt="icon-3">
+			<h2>icon3</h2>
+			<p>添加描述</p>
+			<p><a class="btn btn-default" href="###" role="button">更多资讯</a></p>
+		</div>
+	</div>
+	<hr class="divider">
+	<!--hero begin-->
+<div class="container">
+	<div class="col-md-7">
+		<div class="hero-unit">
+  			<h1 class="hero-unit-heading">教育技术学宣传片</h1>
+  			<p class="hero-unit-text-muted">添加描述</p>
+ 			 <p>
+   			 <a class="btn btn-primary btn-large">
+    			  点击观看
+   			 </a>
+ 			 </p>
+		</div>
+	</div>
+	<div class="col-md-5">
+		<ul class="nav nav-tabs">
+ 		 <li class="active">
+   			 <a href="#">标签页1</a>
+ 		 </li>
+  		<li><a href="#">标签页2</a></li>
+ 		 <li><a href="#">标签页3</a></li>
+		</ul>
+	</div>
+</div>
+	<!--hero end-->
+	<hr>
+	<!--navbar-2 begin-->
+<ul class="nav nav-pills">
+  <li class="active">
+    <a href="#tab-page-1"role="tab"data-toggle="tab">标签页1</a>
+  </li>
+  <li><a href="#tab-page-2"role="tab"data-toggle="tab">标签页2</a></li>
+  <li><a href="#tab-page-3"role="tab"data-toggle="tab">标签页3</a></li>
+  <li><a href="#tab-page-4"role="tab"data-toggle="tab">标签页4</a></li>
+</ul>
+<!--navbar-2 end-->
+<!--navbar-2 content begin-->
+<div class="tab-content">
+	<div class="tab-pane active"id="tab-page-1">
+		<div class="col-md-7">
+			<h2 class="tab-page-heading">添加标题
+			<span class="text-muted">添加小标题</span>
+			</h2>
+			<p class="tab-page-text">添加描述</p>
+		</div>
+		<div class="col-md-5">
+			<img class="tab-page-pic" src="img/icon-1.png"alt="icon-1">
+		</div>
+	</div>
+	<div class="tab-pane "id="tab-page-2">
+		<div class="col-md-7">
+			<h2 class="tab-page-heading">添加标题
+			<span class="text-muted">添加小标题</span>
+			</h2>
+			<p class="tab-page-text">添加描述</p>
+		</div>
+		<div class="col-md-5">
+			<img class="tab-page-pic" src="img/icon-2.png"alt="icon-2">
+		</div>
+	</div>
+	<div class="tab-pane "id="tab-page-3">
+		<div class="col-md-7">
+			<h2 class="tab-page-heading">添加标题
+			<span class="text-muted">添加小标题</span>
+			</h2>
+			<p class="tab-page-text">添加描述</p>
+		</div>
+		<div class="col-md-5">
+			<img class="tab-page-pic" src="img/icon-3.png"alt="icon-3">
+		</div>
+	</div>
+	<div class="tab-pane "id="tab-page-4">
+		<div class="col-md-7">
+			<h2 class="tab-page-heading">添加标题
+			<span class="text-muted">添加小标题</span>
+			</h2>
+			<p class="tab-page-text">添加描述</p>
+		</div>
+		<div class="col-md-5">
+			<img class="tab-page-pic" src="img/icon-3.png"alt="icon-3">
+		</div>
+	</div>
+</div
+
+<!--navbar-2 content end-->
+</div>
+<!--container-1 end-->
+<hr>
+<!--footer begin-->
+<footer>
+	<p>2017 湖南科技大学 教育学院</p>
+</footer>
+<!--footer end-->
+<!--回到顶部 begin-->
+<script type="text/javascript"> 
+function goTopEx() { 
+var obj = document.getElementById("goTopBtn"); 
+function getScrollTop() { 
+return document.documentElement.scrollTop + document.body.scrollTop; 
+} 
+function setScrollTop(value) { 
+if (document.documentElement.scrollTop) { 
+document.documentElement.scrollTop = value; 
+} else { 
+document.body.scrollTop = value; 
+} 
+} 
+window.onscroll = function() { 
+getScrollTop() > 0 ? obj.style.display = "": obj.style.display = "none"; 
+} 
+obj.onclick = function() { 
+var goTop = setInterval(scrollMove, 10); 
+function scrollMove() { 
+setScrollTop(getScrollTop() / 1.1); 
+if (getScrollTop() < 1) clearInterval(goTop); 
+} 
+} 
+} 
+</script> 
+<style> 
+BODY { 
+HEIGHT: 3600px; 
+} 
+#goTopBtn { 
+POSITION: fixed; TEXT-ALIGN: center; LINE-HEIGHT: 30px; WIDTH: 40px; BOTTOM: 30px; HEIGHT: 40px; FONT-SIZE: 12px; CURSOR: pointer; RIGHT: 0px; _position: absolute; _right: auto 
+} 
+</style> 
+</head> 
+<body style="text-align:center"> 
+<div style="display: none" id="goTopBtn"><img border=0 src="img/goTopBtn.png"></div> 
+<script type=text/javascript>goTopEx();</script> 
+<!--回到顶部 end-->
+    <script src="js/bootstrap-3.3.7/js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
